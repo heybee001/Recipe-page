@@ -1,1 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body{
+    font-family: sans-serif;
+    background-color: wheat;
+}
+
+.container {
+    width: 800px;
+   margin:  0 auto;
+}
+
+   /* NAVIGATION STYLINGS */
+.res-name {
+    
+    font-size: 30px;
+    color: azure;
+   
+}
+nav {
+    height: 70px;
+    background-color: aliceblue;
+    
+}
+
+
+a:hover {
+    background-color: aqua;
+    color:blue;
+}
+a {
+    text-decoration: none;
+    padding: 5px 5px;
+}
+.header{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: 500;
+    gap: 20px;
+}
+     
+.hero {
+    
+    margin: 50px 10px;
+}
+
+p{
+    color: #333;
+    font-size: 22px;
+    line-height: 1.8;
+    margin: 30px 10px;
+}
+      /* INGREDIENTS STYLINGS */
+#ingre {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 20px 10px;
+    padding: 30px;
+}
+
+img {
+    
+    float: left;
+}
